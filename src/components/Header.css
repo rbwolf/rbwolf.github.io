@@ -1,0 +1,11 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #fefefe;
+}
+
+.icon :hover {
+    stroke: #81E8FF;
+    transition: stroke 300ms linear;
+}
