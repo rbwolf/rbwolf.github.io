@@ -7,9 +7,9 @@ const Hero = () => {
   const [title, setTitle] = useState(finalTitle)
 
   const scrambleIterations = 20
-  const scramblePause = 30
+  const scramblePauseCoefficient = 25
   const lockFrequency = 1
-  const scrambleEasing = i => Math.log(i) * scramblePause
+  const scrambleTimeout = i => i * Math.log(i) * scramblePauseCoefficient
 
   const scramble = (string, lockedIndices) => {
     const chars = 'abcdefABCDEF0123456789!@#$%^&*'.split('')
@@ -30,7 +30,7 @@ const Hero = () => {
         if (i % lockFrequency === 0) {
           lockedIndices.add(Math.round(Math.random() * finalTitle.length))
         }
-      }, i * scrambleEasing(i))
+      }, scrambleTimeout(i))
     }
   }, [])
 
