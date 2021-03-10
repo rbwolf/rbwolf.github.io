@@ -25,12 +25,15 @@ const Header = () => {
     <div className={'header-wrapper py-4'}>
 
       {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-      <h5 className={'font-weight-bold'}>// rbwolf</h5>
+      <h5 className={'font-weight-bold'}>
+        // rbwolf
+      </h5>
 
       <div className={'d-flex'}>
         {headerActions.map(action =>
-          <a href={action.link}
-             className={'ml-4 icon'}>
+          <a key={action.link}
+             href={action.link}
+             className={'px-3 icon'}>
             {action.icon}
           </a>)
         }

@@ -7,5 +7,5 @@
 
 .icon :hover {
     stroke: #81E8FF;
-    transition: stroke 300ms linear;
+    transition: all 250ms ease-in-out;
 }
