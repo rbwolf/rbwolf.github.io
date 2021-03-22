@@ -1,0 +1,17 @@
+.timeline {
+    margin-top: 12px;
+    padding-left: 24px;
+    border-left: 1px dashed #fefefe;
+}
+
+.bullet {
+    left: -12px;
+    background-color: #22262C;
+    position: absolute;
+}
+
+.whitespace {
+    position: absolute;
+    left: -12px;
+    background-color: #22262C;
+}
