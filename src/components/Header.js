@@ -9,7 +9,7 @@ const Header = () => {
   const headerActions = [
     {
       icon: <Mail/>,
-      link: 'mailto://rdbaerwolf@gmail.com'
+      link: 'mailto:rdbaerwolf@gmail.com'
     },
     {
       icon: <LinkedIn/>,
@@ -17,7 +17,7 @@ const Header = () => {
     },
     {
       icon: <GitHub/>,
-      link: 'https://github.com/'
+      link: 'https://github.com/rbwolf'
     }
   ]
 

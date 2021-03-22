@@ -19,7 +19,7 @@ const MyWork = () => {
         <Title icon={<Code/>} text={'My Work'}/>
       </div>
 
-      <div className={'pl-4'}>
+      <div className={'pl-4 pl-md-5'}>
         <div className={'col col-12 timeline'}>
           {entries.map((entry, index) => (
             <TimelineEntry {...entry}/>
