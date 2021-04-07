@@ -42,10 +42,10 @@ const Hero = () => {
   return (
     <div className={'row hero-wrapper'}>
       <div className={'col col-12 col-md-4 order-md-2 d-flex justify-content-center'}>
-        <img src={'profile_placeholder.jpg'}
+        <img src={'profile.jpg'}
              alt={'A handsome head-shot of yours truly!'}
              height={200}
-             style={{ zIndex: 100, borderRadius: '100%' }}/>
+             style={{ zIndex: 1, borderRadius: '100%' }}/>
         <div id={'hero-particles'} style={{ position: 'absolute' }}/>
       </div>
       <div className={'col col-12 col-md-8 order-md-1 mt-4 mt-md-0'}>
