@@ -12,7 +12,7 @@
     position: absolute;
     top: -64px;
     left: -64px;
-    opacity: 55%;
+    opacity: 0.5;
     content: url(dot-corner.png);
 }
 
