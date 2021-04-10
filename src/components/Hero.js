@@ -40,7 +40,7 @@ const Hero = () => {
 
 
   return (
-    <div className={'row hero-wrapper'}>
+    <div className={'row hero-wrapper pb-4'}>
       <div className={'col col-12 col-md-4 order-md-2 d-flex justify-content-center'}>
         <img src={'profile.jpg'}
              alt={'A handsome head-shot of yours truly!'}
@@ -52,7 +52,7 @@ const Hero = () => {
         <h1>
           {title}
         </h1>
-        <hr style={{ backgroundColor: '#81E8FF', width: '64px', height: '3px', marginLeft: 0 }}/>
+        <hr style={{ backgroundColor: '#99A9D1', width: '48px', height: '3px', marginLeft: 0 }}/>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget sodales diam. Morbi sit amet
           sagittis lacus, et elementum nunc. Aenean venenatis cursus ante, egestas bibendum mauris gravida id.

@@ -1,7 +1,7 @@
 import React from 'react'
 import './MyWork.css'
 
-const TimelineEntry = ({ title, duration, details }) => {
+const TimelineEntry = ({ index, title, duration, details }) => {
   return (
     <div className={'mb-5'}>
       <div className={'mb-2'}>
@@ -11,8 +11,8 @@ const TimelineEntry = ({ title, duration, details }) => {
           </h4>
         </div>
         <div className={'d-flex align-items-center'}>
-          <h1 className={'bullet'}>•</h1>
-          <h5>{duration}</h5>
+          <h1 className={`bullet ${index === 0 ? 'first' : index === 2 ? 'last' : ''}`}>•</h1>
+          <h6>{duration}</h6>
         </div>
       </div>
       <div>

@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px dashed #fefefe;
+    border-bottom: 1px dashed #3A3A3A;
 }
 
 .icon :hover {
-    stroke: #81E8FF;
+    stroke: #99A9D1;
+    transition: stroke 150ms ease;
 }

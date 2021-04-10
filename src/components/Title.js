@@ -11,7 +11,7 @@ const Title = ({ icon, text }) => {
           {text}
         </h2>
       </div>
-      <hr style={{ backgroundColor: '#81E8FF', width: '64px', height: '3px', marginLeft: 0 }}/>
+      <hr style={{ backgroundColor: '#99A9D1', width: '48px', height: '3px', marginLeft: 0 }}/>
     </div>
   )
 }

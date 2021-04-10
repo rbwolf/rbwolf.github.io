@@ -17,10 +17,10 @@ const TechStack = () => {
       <div className={'row'}>
         {data.map(category => (
           <div className={'col col-6 col-md-3 mb-4 mb-md-0'}>
-            <h4 className={'mb-3'}>
+            <h5 className={'mb-3'}>
               {category.title}
-            </h4>
-            {category.entries.map(entry => <p>{entry}</p>)}
+            </h5>
+            {category.entries.map(entry => <p className={'mb-2'}>{entry}</p>)}
           </div>
         ))}
       </div>

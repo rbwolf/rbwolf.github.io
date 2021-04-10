@@ -13,7 +13,7 @@ const MyWork = () => {
   ]
 
   return (
-    <div className={'row'}>
+    <div className={'row my-work'}>
 
       <div className={'col col-12'}>
         <Title icon={<Code/>} text={'My Work'}/>
@@ -22,7 +22,7 @@ const MyWork = () => {
       <div className={'pl-4 pl-md-5'}>
         <div className={'col col-12 timeline'}>
           {entries.map((entry, index) => (
-            <TimelineEntry {...entry}/>
+            <TimelineEntry {...entry} index={index}/>
           ))}
         </div>
       </div>
