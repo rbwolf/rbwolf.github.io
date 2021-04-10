@@ -12,8 +12,8 @@
     position: absolute;
     top: -64px;
     left: -64px;
-    opacity: 50%;
-    content: url(./dot-corner.png);
+    opacity: 55%;
+    content: url(dot-corner.png);
 }
 
 .bullet {
