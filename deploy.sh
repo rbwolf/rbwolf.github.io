@@ -16,6 +16,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/rbwolf/spades.git master:deploy
+git push -f https://github.com/rbwolf/rbwolf.github.io.git master:deploy
 
 cd -
